@@ -81,23 +81,23 @@ In larger projects, developers often want to implement new features, while leavi
 
 - How to create another branch?
 
-git branch rachel //this will create another branch “rachel”
+        git branch rachel //this will create another branch “rachel”
 
 - How to switch to another branch?
 
-git checkout rachel //switch to branch “rachel”
+        git checkout rachel //switch to branch “rachel”
 
 - How to see all the branches?
 
-git branch //this will show all current branches 
+        git branch //this will show all current branches 
 
 - Can you make branches inside a branch?
 
-Yes! This is a common practice in larger scale projects. Subbranches inherit code from their master branch. 
+Yes! It is a common practice in larger scale projects. Subbranches inherit code from their master branch. 
 
 - When to make branches?
 
-It’ll dependent on your project, but a new branch has the copy all your current code when created. 
+It’ll depend on your project, but a new branch has the copy of all your current code when created. 
 
 More on: https://www.youtube.com/watch?v=JTE2Fn_sCZs by Codemy School 
 
@@ -116,7 +116,9 @@ When developers are done with working on their branches (fully tested now) and w
 
 - How to merge?
 1. Go to the branch you want to merge INTO using git checkout (e.g. git checkout master)
-2. git merge rachel <the name of the branch you’re trying to merge FROM>
+2. git merge command (rachel is the name of the branch you’re trying to merge FROM) 
+
+           git merge rachel 
 Note that the other branch (rachel) is deleted after merging with the master branch.  
 
 More on: https://www.youtube.com/watch?v=0iuqXh0oojo by Codemy School 
