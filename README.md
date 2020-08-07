@@ -1,4 +1,4 @@
-# git_basics
+# Git Basics
 
 ### Basic Git commands 
 
