@@ -60,6 +60,7 @@ More on: https://www.youtube.com/watch?v=JTE2Fn_sCZs by Codemy School
 Merging  
 
 -  Why do we need it?
+
 When developers are done with working on their branches (fully tested now) and want to add their code to the master branch, merging combines code on the other branches to the master branch.
 
 - How to merge?
