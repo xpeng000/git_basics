@@ -37,21 +37,27 @@ Date:   Fri Aug 7 14:25:52 2020 +0800
 Git Branches 
 
 - Why do we need it?
+
 In larger projects, developers often want to implement new features, while leaving existing code untouched. This is achieved by branching. When working with source code with multiple developers, each developer could be responsible for creating one feature, which is implemented in a branch, isolated from other branches. This is extremely useful because the changes made on one branch isn’t going to mess up other branches. We’re on the master branch by default. 
 
 - How to create another branch?
+
 git branch rachel //this will create another branch “rachel”
 
 - How to switch to another branch?
+
 git checkout rachel //switch to branch “rachel”
 
 - How to see all the branches?
+
 git branch //this will show all current branches 
 
 - Can you make branches inside a branch?
+
 Yes! This is a common practice in larger scale projects. Subbranches inherit code from their master branch. 
 
 - When to make branches?
+
 It’ll dependent on your project, but a new branch has the copy all your current code when created. 
 
 More on: https://www.youtube.com/watch?v=JTE2Fn_sCZs by Codemy School 
