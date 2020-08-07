@@ -1,38 +1,63 @@
 # git_basics
 
-Basic Git commands:
+<h>Basic Git commands</h>:
 
-git config —global user.name “Rachel Peng“ 		    //set up user name 
+set up user name
 
-git config —global user.email “xpeng@brandeis.edu” 	//set up email 
+    git config —global user.name “Rachel Peng“ 		     
+
+set up email
+
+    git config —global user.email “xpeng@brandeis.edu” 	 
 
 I created an empty folder “git_stuff” on my desktop and cd into this folder 
-git init 						                   // initialize a repository for this folder
 
-touch index.html 					               //“touch” will create a file, e.g. index.html
+initialize a repository for this folder
+
+    git init 						                   
+
+“touch” will create a file, e.g. index.html
+
+    touch index.html 					               
 
 Now we have made a change in the repo, and we need to add the html file to the staging area
 
-git add . 						            //add all changes 
+add all changes
 
-git add index.html 				        	//only add one file 
+    git add . 						             
 
-git add index1.html index2.html index3.html 		//add multiple files 
+only add one file
 
-git commit -m “added html file” 			//commit changes with a string message 
+    git add index.html 				        	 
 
-git commit -am “message” 				//shortcut: combines git add . and git commit -m “message”
+add multiple files 
 
-git push 						//push to GitHub repo
+    git add index1.html index2.html index3.html 		
 
-git status 						//show the status of the GitHub repo 
+commit changes with a string message
+
+    git commit -m “added html file” 
+    
+shortcut: combines git add . and git commit -m “message”
+
+    git commit -am “message” 				
+
+push to GitHub repo
+
+    git push 						
+
+show the status of the GitHub repo
+
+    git status 						 
 
 this is what I have on my terminal after git status:
 
     On branch master
     nothing to commit, working tree clean
 
-git log 						//show all commit history on the branch you’re on
+show all commit history on the branch you’re on
+
+    git log 					
 
 this is what I have on my terminal after git log:
 
