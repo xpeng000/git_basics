@@ -3,6 +3,7 @@
 Basic Git commands:
 
 git config —global user.name “Rachel Peng“ 		    //set up user name 
+
 git config —global user.email “xpeng@brandeis.edu” 	//set up email 
 
 I created an empty folder “git_stuff” on my desktop and cd into this folder 
