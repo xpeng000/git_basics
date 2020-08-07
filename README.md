@@ -12,8 +12,11 @@ git init 						                   // initialize a repository for this folder
 touch index.html 					               //“touch” will create a file, e.g. index.html
 
 Now we have made a change in the repo, and we need to add the html file to the staging area
+
 git add . 						            //add all changes 
+
 git add index.html 				        	//only add one file 
+
 git add index1.html index2.html index3.html 		//add multiple files 
 
 git commit -m “added html file” 			//commit changes with a string message 
