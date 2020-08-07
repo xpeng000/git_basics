@@ -24,16 +24,24 @@ git push 						//push to GitHub repo
 git status 						//show the status of the GitHub repo 
 
 this is what I have on my terminal after git status:
+
     On branch master
     nothing to commit, working tree clean
 
 git log 						//show all commit history on the branch you’re on
 
 this is what I have on my terminal after git log:
+
     commit 57be0239ebcaf3e25e33d9259b537aacbe279ddc (HEAD -> master)
     Author: Rachel Peng <xpeng@brandeis.edu> //with the user name and email we entered
     Date:   Fri Aug 7 14:25:52 2020 +0800
                 added html file 
+
+
+
+
+
+
 
 
 Git Branches 
@@ -63,6 +71,12 @@ Yes! This is a common practice in larger scale projects. Subbranches inherit cod
 It’ll dependent on your project, but a new branch has the copy all your current code when created. 
 
 More on: https://www.youtube.com/watch?v=JTE2Fn_sCZs by Codemy School 
+
+
+
+
+
+
 
 
 Merging  
