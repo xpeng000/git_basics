@@ -2,17 +2,17 @@
 
 Basic Git commands:
 
-git config —global user.name “Rachel Peng“ 		//set up user name 
+git config —global user.name “Rachel Peng“ 		    //set up user name 
 git config —global user.email “xpeng@brandeis.edu” 	//set up email 
 
 I created an empty folder “git_stuff” on my desktop and cd into this folder 
-git init 						// initialize a repository for this folder
+git init 						                   // initialize a repository for this folder
 
-touch index.html 					//“touch” will create a file, e.g. index.html
+touch index.html 					               //“touch” will create a file, e.g. index.html
 
 Now we have made a change in the repo, and we need to add the html file to the staging area
-git add . 						//add all changes 
-git add index.html 					//only add one file 
+git add . 						            //add all changes 
+git add index.html 				        	//only add one file 
 git add index1.html index2.html index3.html 		//add multiple files 
 
 git commit -m “added html file” 			//commit changes with a string message 
@@ -22,16 +22,18 @@ git commit -am “message” 				//shortcut: combines git add . and git commit -
 git push 						//push to GitHub repo
 
 git status 						//show the status of the GitHub repo 
-On branch master
-nothing to commit, working tree clean
+
+this is what I have on my terminal after git status:
+    On branch master
+    nothing to commit, working tree clean
 
 git log 						//show all commit history on the branch you’re on
-this is what I have on my terminal for git log:
-commit 57be0239ebcaf3e25e33d9259b537aacbe279ddc (HEAD -> master)
-Author: Rachel Peng <xpeng@brandeis.edu> //with the user name and email we entered
-Date:   Fri Aug 7 14:25:52 2020 +0800
 
-    added html file 
+this is what I have on my terminal after git log:
+    commit 57be0239ebcaf3e25e33d9259b537aacbe279ddc (HEAD -> master)
+    Author: Rachel Peng <xpeng@brandeis.edu> //with the user name and email we entered
+    Date:   Fri Aug 7 14:25:52 2020 +0800
+                added html file 
 
 
 Git Branches 
