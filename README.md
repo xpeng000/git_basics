@@ -1,6 +1,6 @@
 # git_basics
 
-<h>Basic Git commands</h>:
+###Basic Git commands###
 
 set up user name
 
@@ -73,7 +73,7 @@ this is what I have on my terminal after git log:
 
 
 
-Git Branches 
+###Git Branches### 
 
 - Why do we need it?
 
@@ -108,7 +108,7 @@ More on: https://www.youtube.com/watch?v=JTE2Fn_sCZs by Codemy School
 
 
 
-Merging  
+###Merging###  
 
 -  Why do we need it?
 
